@@ -1,0 +1,138 @@
+[data-pf-theme="primeone-dark"] {
+    --landing-body-bg: #00031a;
+    --landing-text-color: #c9c9c9;
+    --landing-border: 1px solid rgba(255, 255, 255, 0.1);
+    --landing-section-border: linear-gradient(
+        90deg,
+        rgba(0, 67, 238, 0.55) 0%,
+        rgba(0, 102, 255, 0) 60%,
+        rgba(0, 255, 240, 0.45) 100%
+    );
+    --landing-footer-border: linear-gradient(
+        270deg,
+        rgba(255, 255, 255, 0.2) -0.2%,
+        rgba(0, 0, 0, 0.2) 49.87%,
+        rgba(255, 255, 255, 0.2) 99.93%
+    );
+    --landing-menu-item-text-color: rgba(255, 255, 255, 0.4);
+    --landing-menu-item-hover-text-color: #04b9d7;
+
+    --blocks-selection-bg: rgba(7, 0, 33, 0.75);
+    --blocks-selection-shadow: 0px 0px 0px 1px #0d276b;
+    --blocks-selection-item-bg: #061a49;
+    --blocks-selection-item-shadow: 0px 0px 0px 1px #0a2a76, 0px 2px 4px rgba(0, 0, 0, 0.07),
+        0px 1px 1.5px rgba(0, 0, 0, 0.05);
+    --blocks-selection-item-text-color: #ffffff;
+    --blocks-overlay-triangle-bg: #0d276b;
+    --primary-button-bg: #0078e3;
+    --primary-button-shadow: 0px 0px 0px 1px #4dabff, 0px 2px 4px rgba(0, 0, 0, 0.07), 0px 1px 1.5px rgba(0, 0, 0, 0.05);
+    --primary-button-hover-bg: linear-gradient(112.31deg, #00e08f 19.49%, #00a3ff 98.51%);
+    --primary-button-text-color: #ffffff;
+    --primary-button-hover-text-color: #00031a;
+
+    --secondary-button-bg: #061a49;
+    --secondaty-button-shadow: 0px 0px 0px 1px #0a2a76, 0px 2px 4px rgba(0, 0, 0, 0.07),
+        0px 1px 1.5px rgba(0, 0, 0, 0.05);
+    --secondary-button-hover-bg: #0a2a76;
+    --secondaty-button-text-color: #ffffff;
+    --secondary-button-hover-text-color: #ffffff;
+
+    //hero
+    --hero-bg-light-1: linear-gradient(0deg, #000000 1.39%, #ffffff 100%);
+    --hero-bg-light-2: linear-gradient(0deg, #ffffff 0%, #00ff94 100%);
+    --hero-bg-light-3: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
+    --hero-bg-light-4: linear-gradient(180deg, #dbdbdb 0%, #000aff 100%);
+    --hero-bg-light-mix-mode: screen;
+
+    //hero-box
+    --hero-box-bg: linear-gradient(116.22deg, #012278 33.5%, rgba(1, 25, 85, 0.58) 99.16%);
+    --hero-box-shadow: 0px 0px 28px 14px #000424;
+    --hero-box-border: 2px solid #0078e3;
+    --hero-box-text-color: #ffffff;
+    --hero-box-classes-bg: rgba(0, 120, 227, 0.4);
+    --hero-box-classes-purple-bg: rgba(128, 0, 255, 0.4);
+    --hero-box-pink-bg: rgba(227, 0, 204, 0.4);
+
+    //docsearch
+    --docsearch-bg: rgba(7, 0, 33, 0.75);
+    --docsearch-shadow: 0px 0px 0px 1px #00031a, 0px 2px 4px rgba(0, 0, 0, 0.07), 0px 1px 1.5px rgba(0, 0, 0, 0.05);
+    --docsearch-color: #808080;
+
+    //download-box
+    --download-box-bg: #070021;
+    --download-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.05);
+    --download-box-border: 1px solid #0d276b;
+
+    //cards
+    --cards-bg: radial-gradient(93.88% 63.6% at 50% 0%, rgba(2, 225, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
+        rgba(1, 4, 27, 0.3);
+    --cards-bg-color: #00031a;
+    --cards-border: 1px solid rgba(255, 255, 255, 0.1);
+    --cards-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    --cards-color-text-color: rgba(255, 255, 255, 0.7);
+    --color-cards-animated-bg: rgba(1, 4, 36, 0.2);
+    --layout-card-bg: rgba(255, 255, 255, 0.1);
+    --layout-card-border: 1px solid rgba(255, 255, 255, 0.15);
+    --card-slider-text-color: rgba(255, 255, 255, 0.7);
+    --slider-bg: transparent;
+    --slider-handle-bg: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.12) 100%),
+        linear-gradient(0deg, #061a49, #061a49), #002342;
+    --slider-handle-border: none;
+    --slider-div-bg: transparent;
+    --slider-handle-icon-color: #6a758f;
+    //animations
+    --animations-text-backdrop: linear-gradient(180deg, rgba(1, 4, 27, 0) 0%, #00031a 29.97%);
+    --animation-card-bg: radial-gradient(
+            79.09% 79.09% at 50% 98.36%,
+            rgba(255, 255, 255, 0.14) 0%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        rgba(255, 255, 255, 0.1);
+    --animation-card-border: 1px solid rgba(255, 255, 255, 0.2);
+
+    //style-cards
+    --style-cards-fancy-bg: radial-gradient(93.88% 63.6% at 50% 0%, rgba(2, 225, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
+        #01041b;
+    --style-cards-bg: linear-gradient(0deg, rgba(1, 4, 27, 0.4), rgba(1, 4, 27, 0.4)),
+        radial-gradient(93.88% 63.6% at 50% 0%, rgba(2, 225, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+    --style-cards-section-bg: rgba(255, 255, 255, 0.1);
+    --style-cards-header-text-color: rgba(255, 255, 255, 0.6);
+
+    //code
+    --code-background: #1f2338 !important;
+    --code-border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    --code-divs-color: #cc00ff;
+    --code-text-color: rgba(255, 255, 255, 0.6);
+    --code-class-text-color: rgba(0, 194, 255, 1);
+
+    //responsive
+    --responsive-breaks-bg: rgba(1, 4, 27, 0.3);
+    --responsive-breaks-border: 1px solid rgba(255, 255, 255, 0.1);
+    --responsive-breaks-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    --responsive-active-bg: radial-gradient(
+            79.09% 79.09% at 50% 98.36%,
+            rgb(0 0 0 / 14%) 0%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        rgba(255, 255, 255, 0.1);
+    --responsive-active-bg-side-1: radial-gradient(
+            79.09% 79.09% at 50% 98.36%,
+            rgb(0 0 0 / 14%) 0%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        rgba(255, 255, 255, 0.1);
+    --responsive-active-bg-side-2: radial-gradient(
+            79.09% 79.09% at 50% 98.36%,
+            rgb(0 0 0 / 14%) 0%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        rgba(255, 255, 255, 0.1);
+    --responsive-resize-handle-bg: rgba(255, 255, 255, 0.1);
+    --responsive-resize-handle-border: 1px solid rgba(255, 255, 255, 0.1);
+    --responsive-resize-handle-hover-bg: rgba(255, 255, 255, 0.2);
+    --responsive-resize-handle-icon-color: rgba(255, 255, 255, 0.4);
+    --responsive-iframe-shadow: none;
+
+    //blocks
+    --blocks-backdrop: radial-gradient(50% 50% at 50% 50%, #00031a 0%, rgba(0, 3, 26, 0.5) 50%, #00031a 100%);
+}

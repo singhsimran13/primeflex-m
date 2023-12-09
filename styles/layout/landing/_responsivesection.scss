@@ -1,0 +1,122 @@
+.landing-responsive-section {
+    padding: 1rem 0;
+
+    .landing-responsive-container {
+        .landing-responsive-content {
+            text-align: center;
+
+            .landing-title {
+                max-width: 68rem;
+            }
+
+            .landing-subtitle {
+                text-align: center;
+            }
+        }
+
+        .landing-responsive-wrapper {
+            .landing-responsive-breaks {
+                > div {
+                    background: var(--responsive-breaks-bg);
+                    background-blend-mode: color-dodge;
+                    border: var(--responsive-breaks-border);
+                    box-shadow: var(--responsive-breaks-shadow);
+                    border-radius: 3.5px;
+                    color: var(--card-slider-text-color);
+
+                    &.active-responsive {
+                        opacity: 1 !important;
+                        background: var(--responsive-active-bg);
+                        color: #fff;
+
+                        &:first-child {
+                            background: var(--responsive-active-bg-side-1);
+                        }
+                        &:nth-child(2) {
+                            background: var(--responsive-active-bg-side-1);
+                        }
+                        &:nth-child(3) {
+                            background: var(--responsive-active-bg-side-1);
+                        }
+                        &:nth-child(5) {
+                            background: var(--responsive-active-bg-side-2);
+                        }
+                        &:nth-child(6) {
+                            background: var(--responsive-active-bg-side-2);
+                        }
+                        &:nth-child(7) {
+                            background: var(--responsive-active-bg-side-2);
+                        }
+                    }
+                    &.semi-active-break {
+                        background: var(--responsive-active-bg);
+                        opacity: 0.6;
+                        color: #fff;
+                        &:first-child {
+                            background: var(--responsive-active-bg-side-1);
+                        }
+                        &:nth-child(2) {
+                            background: var(--responsive-active-bg-side-1);
+                        }
+                        &:nth-child(3) {
+                            background: var(--responsive-active-bg-side-1);
+                        }
+                        &:nth-child(5) {
+                            background: var(--responsive-active-bg-side-2);
+                        }
+                        &:nth-child(6) {
+                            background: var(--responsive-active-bg-side-2);
+                        }
+                        &:nth-child(7) {
+                            background: var(--responsive-active-bg-side-2);
+                        }
+                    }
+                }
+            }
+            .landing-responsive-iframe {
+                .resize-wrapper {
+                    max-width: 1200px;
+                    min-width: 250px;
+                    border-radius: 0.25rem;
+                    height: 631px;
+                    box-shadow: var(--responsive-iframe-shadow);
+                }
+                .resize-handle {
+                    width: 17.5px;
+                    height: 77px;
+                    background: var(--responsive-resize-handle-bg);
+                    border: var(--responsive-resize-handle-border);
+                    border-radius: 3.5px;
+                    z-index: 10;
+                    right: -20px;
+                    top: 40%;
+                    cursor: col-resize;
+                    position: relative;
+
+                    &:hover {
+                        background: var(--responsive-resize-handle-hover-bg);
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 3.5px;
+                        height: 21px;
+                        background: var(--responsive-resize-handle-icon-color);
+                        border-radius: 3.5px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1960px) {
+    .landing-responsive-container {
+        width: 1650px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}

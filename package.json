@@ -1,0 +1,41 @@
+{
+    "name": "primeflex",
+    "version": "4.0.0-rc.1-SNAPSHOT_v1.0.0",
+    "description": "PrimeFlex is a lightweight responsive CSS utility library to accompany Prime UI libraries and static webpages as well.",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "format": "prettier --write \"{components,data,lib,pages,public,scripts,styles}/**/*.{js,css,scss}\"",
+        "format:check": "prettier --check \"{components,data,lib,pages,public,scripts,styles}/**/*.{js,css,scss}\"",
+        "lint": "next lint --max-warnings=0 --ignore-path .gitignore .",
+        "lint:fix": "next lint --fix --ignore-path .gitignore .",
+        "build:lib": "NODE_ENV=production npm run build:package",
+        "build:package": "npm run build:check && node scripts/build.js",
+        "build:check": "npm run lint && npm run format:check",
+        "build:css": "node scripts/dev/postcss.js",
+        "build:css:watch": "node scripts/dev/postcss-watcher.js"
+    },
+    "dependencies": {
+        "@docsearch/react": "^3.3.3",
+        "next": "13.2.1",
+        "primereact": "^9.2.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^5.0.0",
+        "child_process": "^1.0.2",
+        "eslint": "8.35.0",
+        "eslint-config-next": "13.2.1",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-jest-dom": "^4.0.3",
+        "fs-extra": "^10.1.0",
+        "path": "^0.12.7",
+        "postcss-cli": "10.1.0",
+        "postcss-preset-env": "^9.3.0",
+        "prettier": "^2.8.4",
+        "sass": "^1.58.3"
+    }
+}

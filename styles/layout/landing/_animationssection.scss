@@ -1,0 +1,78 @@
+.landing-animations-section {
+    padding: 1rem 0;
+
+    .landing-animations-container {
+        .landing-animations-content {
+            margin-top: -7rem;
+            background: var(--animations-text-backdrop);
+            .landing-title {
+                max-width: 68rem;
+            }
+        }
+        .bg-animations-wrapper {
+            position: absolute;
+            width: 100%;
+            opacity: 0.25;
+            z-index: -1;
+            top: 65px;
+
+            .bg-animations {
+                background: #00e08f;
+                mix-blend-mode: screen;
+                filter: blur(171.45px);
+                width: 247px;
+                height: 244px;
+                display: block;
+
+                &.bg-2 {
+                    background: #3b82f6;
+                }
+            }
+        }
+        .landing-animations-cards {
+            .animation-card {
+                background: var(--animation-card-bg);
+                backdrop-filter: blur(3.5px);
+                border: var(--animation-card-border);
+                border-radius: 16px;
+                color: var(--cards-color-text-color);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1960px) {
+    .landing-cards-container {
+        width: 1650px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media screen and (max-width: $landingBreakpointMD) {
+    .landing-animations-section {
+        .landing-animations-container {
+            .landing-animations-cards {
+                width: 100% !important;
+                .animation-card {
+                    min-height: 120px !important;
+                }
+            }
+            .landing-animations-content {
+                margin-top: -6rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .landing-animations-section {
+        .landing-animations-container {
+            .landing-animations-cards {
+                .animation-card {
+                    padding: 1rem !important;
+                }
+            }
+        }
+    }
+}
